@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 0px) {
+  .container {
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 0px 0px;
+  }
+}
+@media (min-width: 1560px) {
+  .container {
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+}
+
+.footer__list {
+  list-style-type: none;
+  
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Helvetica Neue medium", sans-serif;
+  background-color: #F2F2F2;
+}
